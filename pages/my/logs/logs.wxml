@@ -1,0 +1,48 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="black-cover"></view>
+    <image class="logo" src="/static/images/more/logo.png"></image>
+    <image class="title" src="/static/images/more/title8.png"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">XH约吧</text>
+        <text class="version-text">{{version}}</text>
+        <text class="version-text">公测</text>
+      </view>
+      <view>
+        <text class="version-log-link update-log">开发日志</text>
+      </view>
+    </view>
+    <view class="log-list">
+      <view class="describe">
+        <view class="desc-title">
+          <text class="desc-v">v2.2.4 公测版</text>
+          <text class="desc-time">2018.11.24</text>
+        </view>
+        <text class="desc-content">修复BUG</text>
+        <view class="desc-list">
+          <text class="desc-list-item">修复我的收藏，我的发起，界面不能加入与收藏活动</text>
+          <text class="desc-list-item">修复模板消息问题</text>
+        </view>
+        <text class="desc-content">优化完善</text>
+        <view class="desc-list">
+          <text class="desc-list-item">添加发起修改功能，联系方式修改功能</text>
+          <text class="desc-list-item">添加发起群二维码上传，显示功能</text>
+          <text class="desc-list-item">添加发起者与加入者联系信息可以点击复制功能</text>
+          <text class="desc-list-item">优化了微信号，手机号，QQ号以及真实姓名的校验</text>
+          <text class="desc-list-item">添加修改发起状态功能</text>
+          <text class="desc-list-item">添加发起撤离首页和公开发起功能</text>
+          <text class="desc-list-item">删除点赞与取消赞的提示消息，换成动画效果</text>
+          <text class="desc-list-item">优化动态消息提示机制</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <text>1021佛系搬运工</text>
+    <text>Copyright @ {{year}} All Rights Reserved</text>
+  </view>
+</view>

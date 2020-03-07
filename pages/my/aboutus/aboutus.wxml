@@ -1,0 +1,8 @@
+<text class="desc">
+	《XH约吧》是一款开源产品
+</text>
+<image src="/static/images/smart1.png" mode="widthFix" />
+<view class="copyright">
+<text>1021佛系搬运工</text>
+<view><text>Copyright @ {{year}} All Rights Reserved</text></view>
+</view>
